@@ -4,3 +4,4 @@ Projet de **plateforme de gestion de tournois étudiants** dans le cadre du cour
 ## SiteMap de l'applictaion
 
 ![SiteMap](SiteMap/SiteMap.png)
+![SiteMap](SiteMap/SiteMap.docx)
