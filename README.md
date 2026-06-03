@@ -2,7 +2,10 @@
 
 ![Logo SQLeague](ressources/Sans_titreV2.png)
 
-Projet de **plateforme de gestion de tournois étudiants** dans le cadre du cours **Conception**
+## Description
+
+SQLeague est un projet de conception d'une **plateforme de gestion de tournois étudiants**.  
+Ce projet a été réalisé dans le cadre du cours **ConceptionBDD** en première année du cycle préparatoire intégré de 3iL.
 
 ## Auteurs
 
