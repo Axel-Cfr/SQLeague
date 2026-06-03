@@ -16,7 +16,7 @@ Projet de **plateforme de gestion de tournois étudiants** dans le cadre du cour
 - [GitHub](https://github.com/Axel-Cfr/SQLeague)
 - [Trello](https://trello.com/b/RIIfY1o3/sqleague)
 - [Documentation Technique](docs/Doc_technique.md)
-- [Vidéo de présentation](lien à mettre ici)
+- [Vidéo de présentation](https://drive.proton.me/urls/Q50GQ5X4Y4#NkvhmXsKbWBs)
 - [Vidéo technique](lien à mettre ici)
 
 ## Licence
