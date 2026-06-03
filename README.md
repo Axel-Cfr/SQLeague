@@ -1,6 +1,6 @@
 # SQLeague
 
-![Logo SQLeague](ressources/Sans_titreV2.png)
+![Logo SQLeague](ressources/Logo.png)
 
 ## Description
 
