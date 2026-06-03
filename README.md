@@ -1,4 +1,7 @@
 # SQLeague
+
+![Logo SQLeague](ressources/Sans titreV2.png)
+
 Projet de **plateforme de gestion de tournois étudiants** dans le cadre du cours **Conception**
 
 ## Auteurs
