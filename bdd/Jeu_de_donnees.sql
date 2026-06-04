@@ -56,8 +56,8 @@ INSERT INTO Utilisateur (nom_utilisateur, email, hash_mot_de_passe, id_type) VAL
 -- Tournois (passés + à venir)
 INSERT INTO Tournoi (nom_tournoi, date_tournoi, heure_debut, id_jeux, id_format) VALUES
 ('LoL Winter Cup',        '2026-01-15', '19:00:00', 1, 3), -- id 1 - équipe 5v5 terminé
-('Valorant Spring Open',  '2026-03-20', '20:00:00', 2, 1), -- id 2 - solo BO1 terminé
-('Rocket League Clash',   '2026-05-10', '18:30:00', 3, 4), -- id 3 - équipe 2v2 terminé
+('Valorant Spring Open',  '2026-06-03', '20:00:00', 2, 1), -- id 2 - solo BO1 terminé
+('Rocket League Clash',   '2026-06-01', '18:30:00', 3, 4), -- id 3 - équipe 2v2 terminé
 ('CS2 Summer Showdown',   '2026-07-12', '20:00:00', 5, 2), -- id 4 - solo BO3 à venir
 ('FIFA 25 Cup',           '2026-08-25', '19:00:00', 4, 1); -- id 5 - solo BO1 à venir
 
