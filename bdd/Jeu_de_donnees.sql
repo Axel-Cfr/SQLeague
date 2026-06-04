@@ -34,24 +34,24 @@ INSERT INTO plateformes_difusion (lien_plateforme) VALUES
 
 -- Utilisateurs
 INSERT INTO Utilisateur (nom_utilisateur, email, hash_mot_de_passe, id_type) VALUES
--- Admins (organisateurs)
-('NightOwl_Noa',   'noa.martin@edu.fr',    UNHEX('a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2'), 1),
-('ProNoa42',       'noa.garcia@edu.fr',    UNHEX('b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3'), 1),
--- Communication
-('AliXcom',        'alix.dupont@edu.fr',   UNHEX('c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4'), 3),
--- BDE
-('JadeAdmin',      'jade.leroy@edu.fr',    UNHEX('d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5'), 4),
--- Joueurs
-('ShadowBlade',    'ines.moreau@edu.fr',   UNHEX('e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6'), 2),
-('PixelKnight',    'lucas.simon@edu.fr',   UNHEX('f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1'), 2),
-('StormRider',     'theo.petit@edu.fr',    UNHEX('a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2'), 2),
-('FrostQueen',     'emma.bernard@edu.fr',  UNHEX('b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3'), 2),
-('VoidHunter',     'adam.robert@edu.fr',   UNHEX('c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4'), 2),
-('BlazeMaster',    'chloe.thomas@edu.fr',  UNHEX('d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5'), 2),
-('IronWolf',       'hugo.michel@edu.fr',   UNHEX('e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6'), 2),
-('StarSeeker',     'lea.fontaine@edu.fr',  UNHEX('f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1'), 2),
-('DarkMatter',     'ryan.girard@edu.fr',   UNHEX('a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2'), 2),
-('NeonFalcon',     'sofia.roux@edu.fr',    UNHEX('b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3'), 2);
+-- Organisateurs (id_type = 1)
+('NightOwl_Noa', 'noa.martin@edu.fr',   UNHEX(SHA2('Noa#2026',   256)), 1),
+('ProNoa42',     'noa.garcia@edu.fr',   UNHEX(SHA2('Noa#2026',   256)), 1),
+-- Joueurs (id_type = 2)
+('ShadowBlade',  'ines.moreau@edu.fr',  UNHEX(SHA2('Ines#2026',  256)), 2),
+('PixelKnight',  'lucas.simon@edu.fr',  UNHEX(SHA2('Lucas#2026', 256)), 2),
+('StormRider',   'theo.petit@edu.fr',   UNHEX(SHA2('Theo#2026',  256)), 2),
+('FrostQueen',   'emma.bernard@edu.fr', UNHEX(SHA2('Emma#2026',  256)), 2),
+('VoidHunter',   'adam.robert@edu.fr',  UNHEX(SHA2('Adam#2026',  256)), 2),
+('BlazeMaster',  'chloe.thomas@edu.fr', UNHEX(SHA2('Chloe#2026', 256)), 2),
+('IronWolf',     'hugo.michel@edu.fr',  UNHEX(SHA2('Hugo#2026',  256)), 2),
+('StarSeeker',   'lea.fontaine@edu.fr', UNHEX(SHA2('Lea#2026',   256)), 2),
+('DarkMatter',   'ryan.girard@edu.fr',  UNHEX(SHA2('Ryan#2026',  256)), 2),
+('NeonFalcon',   'sofia.roux@edu.fr',   UNHEX(SHA2('Sofia#2026', 256)), 2),
+-- Communication (id_type = 3)
+('AliXcom',      'alix.dupont@edu.fr',  UNHEX(SHA2('Alix#2026',  256)), 3),
+-- BDE (id_type = 4)
+('JadeAdmin',    'jade.leroy@edu.fr',   UNHEX(SHA2('Jade#2026',  256)), 4);
 
 -- Tournois (passés + à venir)
 INSERT INTO Tournoi (nom_tournoi, date_tournoi, heure_debut, id_jeux, id_format) VALUES
