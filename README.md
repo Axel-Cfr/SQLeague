@@ -17,7 +17,7 @@ Ce projet a été réalisé dans le cadre du cours **ConceptionBDD** en premièr
 
 - [GitHub](https://github.com/Axel-Cfr/SQLeague)
 - [Trello](https://trello.com/b/RIIfY1o3/sqleague)
-- [Dossier du projet](lien à mettre ici)
+- [Dossier du projet](dossier/ConceptionBDD.pdf)
 - [Vidéo de présentation](https://drive.proton.me/urls/Q50GQ5X4Y4#NkvhmXsKbWBs) (Disponible jusqu'au 30 juillet 2026)
 - [Vidéo technique](https://drive.google.com/file/d/1_Th21uMAOWLb6_ag-SzH0rjJGNad-5mc/view?usp=sharing)
 
